@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*- 
 # study/forms.py
 from django import forms
 from .models import Post, Comment
