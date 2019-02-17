@@ -1,4 +1,4 @@
-#!/home/okwow123/django_english_project/env/bin/python
+#!/home/ilovejsp/project/zzalzzal/env/bin/python2
 #
 # The Python Imaging Library
 # $Id$

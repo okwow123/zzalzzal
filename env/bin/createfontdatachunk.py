@@ -1,4 +1,4 @@
-#!/home/okwow123/django_english_project/env/bin/python
+#!/home/ilovejsp/project/zzalzzal/env/bin/python2
 from __future__ import print_function
 import base64
 import os

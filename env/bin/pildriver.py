@@ -1,4 +1,4 @@
-#!/home/okwow123/django_english_project/env/bin/python
+#!/home/ilovejsp/project/zzalzzal/env/bin/python2
 """PILdriver, an image-processing calculator using PIL.
 
 An instance of class PILDriver is essentially a software stack machine

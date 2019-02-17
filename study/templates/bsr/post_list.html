@@ -29,21 +29,10 @@
 			</form>
 		</p>
 		<table class="table text-center table-hover">
-			<thead>
-				<tr>
-					<th>id</th>
-					<th>Title</th>
-					<th>Author</th>
-					<th>Date</th>
-				</tr>
-			</thead>
 			<tbody>
 				{% for post in object_list %}
 				<tr>
-					<td>{{ post.id }}</td>
 					<td><a href="{% url 'study:post_detail' pk=post.pk %}">{{ post.title }} <span class="count">[{{ post.comments.count }}]</span></a></td>
-					<td>{{ post.author }}</td>
-					<td>{{ post.created_at | date:"Y-m-d D" }}</td>
 				</tr>
 				{% endfor %}
 			</tbody>
